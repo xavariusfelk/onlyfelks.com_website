@@ -1,0 +1,4 @@
+Host: onlyfelks.com
+
+User-agent: *
+Allow: /
