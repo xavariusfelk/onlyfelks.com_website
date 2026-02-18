@@ -1,0 +1,12 @@
+body {
+    font-size: 14px;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+.smol {
+    font-size: 10px;
+}
+
+.italic {
+    font-style: italic;
+}
