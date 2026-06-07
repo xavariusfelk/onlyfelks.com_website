@@ -1,0 +1,21 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100dvh;
+}
+
+.center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+}
+
+.error_text {
+    font-size: 20px;
+}
