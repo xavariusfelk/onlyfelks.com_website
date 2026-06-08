@@ -1,0 +1,30 @@
+#cookies {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    padding: 10px;
+    /* TODO: change the blueviolet to something else */
+    background-color: blueviolet;
+    border: 2px solid blueviolet;
+    border-radius: 0 10px 0 0;
+    text-align: center;
+}
+
+#cookies a {
+    position: absolute;
+    padding: 5px;
+    display: block;
+    bottom: 0;
+    right: 0;
+    text-decoration: none;
+    /* TODO: make sure it has contrast compared to the box */
+    color: white;
+}
+
+#cookies .cookies_small {
+    font-size: 12px;
+}
+
+#cookies .cookies_regular {
+    font-size: 15px;
+}

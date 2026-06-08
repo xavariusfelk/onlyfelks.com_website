@@ -1,0 +1,74 @@
+.links {
+    text-align: center;
+    padding: 10px;
+    width: 50%;
+}
+
+.links img {
+    width: 20px;
+    display: block;
+}
+
+.links a {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    justify-content: center;
+}
+
+.general {
+    position: relative;
+    display: block;
+    text-decoration: none;
+    border: 5px solid black;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+.telegram {
+    background-color: #24A1DE;
+    border-color:#24A1DE;
+    color: #FFFFFF;
+}
+
+.steam {
+    background-color: #171A21;
+    border-color: #171A21;
+    color: #FFFFFF;
+}
+
+.github {
+    background-color: #000000;
+    border-color: #000000;
+    color: #FFFFFF;
+}
+
+.bluesky {
+    background-color: #1185FE;
+    border-color: #1185FE;
+    color: #FFFFFF;
+}
+
+.x {
+    background-color: #000000;
+    border-color: #000000;
+    color: #FFFFFF;
+}
+
+.twitch {
+    background-color: #9146FF;
+    border-color: #9146FF;
+    color: #FFFFFF;
+}
+
+.vrchat {
+    background-color: #FFFFFF;
+    border: 1px solid black;
+    color: #000000;
+}
+
+.discord {
+    background-color: #5865F2;
+    border-color: #5865F2;
+    color: #FFFFFF;
+}
