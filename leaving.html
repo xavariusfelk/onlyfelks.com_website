@@ -11,11 +11,13 @@
     <link rel="stylesheet" href="styles/leaving.css">
 </head>
 <body>
-    <div>
+    <div class="notification">
         <font class="bye">Bye!</font> <br>
-        <font class="information">You're heading to external site outside of onlyfelks.com.</font> <br>
-        <font class="destination">Destination website: <code id="redirect_url">You should see an URL here, if you see this text, it means you don't have JavaScript enabled.</code></font>
-        <a href="" id="back_button">Go back</a> <a href="" id="continue_button">Continue</a>
+        <font class="information">You're heading to external site outside of <font class="host">onlyfelks.com</font>.</font> <br>
+        <font class="destination"><a href="" id="copy_button"><img src="icons/copy.svg"></a><div class="vert_line"></div><code id="redirect_url">You should see an URL here, if you see this text, it means you don't have JavaScript enabled.</code></font>
+        <div class="buttons">
+            <a href="" id="back_button" class="navbutton">Go back</a> <a href="" id="continue_button" class="navbutton">Continue</a> <font class="checkbox_thingy"><input type="checkbox" id="skip" name="skip"><label for="skip">Don't ask again</label></font>
+        </div>
     </div>
     <script src="scripts/leaving.js"></script>
 </body>

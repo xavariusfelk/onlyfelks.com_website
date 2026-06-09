@@ -19,3 +19,22 @@ img {
 .error_text {
     font-size: 20px;
 }
+
+
+.credit {
+    color: black;
+    font-size: 10px;
+}
+
+.credit a {
+    color: black;
+    font-size: 10px;
+    text-decoration-color: transparent;
+    transition: text-decoration-color 0.5s ease;
+    transition: color 0.5s ease;
+}
+
+.credit a:hover {
+    text-decoration-color: blue;
+    color: blue;
+}

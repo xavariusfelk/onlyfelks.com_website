@@ -2,6 +2,7 @@
     text-align: center;
     padding: 10px;
     width: 50%;
+    min-width: 276px;
 }
 
 .links img {
@@ -20,14 +21,14 @@
     position: relative;
     display: block;
     text-decoration: none;
-    border: 5px solid black;
-    border-radius: 15px;
-    padding: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 13px;
 }
 
 .telegram {
     background-color: #24A1DE;
-    border-color:#24A1DE;
+    border-color: #24A1DE;
     color: #FFFFFF;
 }
 
@@ -39,7 +40,6 @@
 
 .github {
     background-color: #000000;
-    border-color: #000000;
     color: #FFFFFF;
 }
 
@@ -51,7 +51,6 @@
 
 .x {
     background-color: #000000;
-    border-color: #000000;
     color: #FFFFFF;
 }
 
@@ -63,7 +62,6 @@
 
 .vrchat {
     background-color: #FFFFFF;
-    border: 1px solid black;
     color: #000000;
 }
 
@@ -71,4 +69,10 @@
     background-color: #5865F2;
     border-color: #5865F2;
     color: #FFFFFF;
+}
+
+.email {
+    background-color: #CC6F24;
+    border-color: #CC6F24;
+    color: #FFFFFF;    
 }

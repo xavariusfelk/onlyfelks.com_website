@@ -3,20 +3,20 @@ body {
     flex-direction: flex-start;
     align-items: center;
     justify-content: center;
-    height: 100dvh;
-    /* TODO: change the darkgray to something else */
-    background-color: darkgray;
+    min-height: 100dvh;
+    background-color: #381c14;
 }
 
 .middle {
+    position: static;
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 100dvh;
+    min-height: 100dvh;
     flex-direction: column;
-    /* TODO: change the gray to something else */
-    background-color: gray;
     width: 50dvh;
+    min-width: 655px;
+    background-color: #5e2f22;
 }
 
 .welcome_message img {
@@ -24,9 +24,78 @@ body {
 }
 
 .welcome_message {
+    position: sticky;
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
-    padding: 30px;
+    padding: 20px;
+}
+
+.welcome_message .welcome1 {
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.welcome_message .welcome2 {
+    color: white;
+    font-size: 15px;
+}
+
+.welcome_message .welcome3, .welcome_message .credit {
+    color: white;
+    font-size: 10px;
+}
+
+.welcome_message .credit a {
+    color: white;
+    font-size: 10px;
+    text-decoration-color: transparent;
+    transition: text-decoration-color 0.5s ease;
+    transition: color 0.5s ease;
+}
+
+.welcome_message .credit a:hover {
+    text-decoration-color: blue;
+    color: blue;
+}
+
+.footnote {
+    text-align: center;
+    padding: 10px;
+    color: white;
+}
+
+.footnote_bottom {
+    position: fixed;
+    bottom: 0;
+}
+
+@media (min-height: 1055px) {
+    .footnote_bottom {
+        display: default;
+    }
+    .footnote_below {
+        display: none;
+    }
+}
+
+@media (max-height: 1055px) {
+    .footnote_bottom {
+        display: none;
+    }
+    .footnote_below {
+        display: default;
+    }
+}
+
+.footnote img {
+    width: 15px;
+    fill: white;
+}
+
+.footnote a {
+    text-decoration: none;
+    color: black;
 }

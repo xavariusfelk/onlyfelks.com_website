@@ -3,11 +3,16 @@
     bottom: 0;
     left: 0;
     padding: 10px;
-    /* TODO: change the blueviolet to something else */
-    background-color: blueviolet;
-    border: 2px solid blueviolet;
+    background-color: #4b251a;
+    border-top: 2px;
+    border-right: 2px;
+    border-bottom: 0;
+    border-left: 0;
+    border-color: black;
+    border-style: dotted;
     border-radius: 0 10px 0 0;
     text-align: center;
+    color: white;
 }
 
 #cookies a {
@@ -17,7 +22,6 @@
     bottom: 0;
     right: 0;
     text-decoration: none;
-    /* TODO: make sure it has contrast compared to the box */
     color: white;
 }
 
