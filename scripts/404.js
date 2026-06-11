@@ -1,3 +1,5 @@
+// last updated on day 4
+
 const error_text_box = document.getElementById('error_text');
 
 const error_messages = [

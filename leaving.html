@@ -1,22 +1,26 @@
+<!-- Last update day 4 -->
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Goodbye!</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles/main.css">
     <link rel="stylesheet" href="styles/leaving.css">
+    <link rel="shortcut icon" href="images/derp_xavi.webp" type="image/x-icon">
 </head>
 <body>
     <div class="notification">
         <font class="bye">Bye!</font> <br>
         <font class="information">You're heading to external site outside of <font class="host">onlyfelks.com</font>.</font> <br>
+        <font id="nsfw_information" class="nsfw_information hidden"><font class="red">Warning</font>: Content you're about to view may contain <font class="red">NSFW</font> and allowed only to <font class="red">18+</font> people. <br> By continuing you acknowledge you're about to view possible <font class="red">NSFW</font> content. <br></font>
         <font class="destination"><a href="" id="copy_button"><img src="icons/copy.svg"></a><div class="vert_line"></div><code id="redirect_url">You should see an URL here, if you see this text, it means you don't have JavaScript enabled.</code></font>
         <div class="buttons">
-            <a href="" id="back_button" class="navbutton">Go back</a> <a href="" id="continue_button" class="navbutton">Continue</a> <font class="checkbox_thingy"><input type="checkbox" id="skip" name="skip"><label for="skip">Don't ask again</label></font>
+            <a href="" id="back_button" class="navbutton">Go back</a> <a href="index.html" id="mainpage_button" class="hidden">Home Page</a> <a href="" id="continue_button" class="navbutton">Continue</a> <font id="checkbox_thingy" class="checkbox_thingy"><input type="checkbox" id="skip" name="skip"><label for="skip">Don't ask again</label></font>
         </div>
     </div>
     <script src="scripts/leaving.js"></script>

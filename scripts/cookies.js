@@ -1,3 +1,5 @@
+// last updated on day 4
+
 const cookie_popup_close = localStorage.getItem('cookie_popup');
 if(cookie_popup_close == 'closed') {
     document.getElementById('cookies').style.display = 'none';

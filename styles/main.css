@@ -1,3 +1,5 @@
+/* Last update on day 4 */
+
 body {
     margin: 0;
     padding: 0;
@@ -12,4 +14,8 @@ code {
     font-family: "Roboto Mono", monospace;
     font-optical-sizing: auto;
     font-style: normal
+}
+
+.hidden {
+    display: none;
 }

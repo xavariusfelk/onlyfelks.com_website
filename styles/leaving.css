@@ -1,3 +1,5 @@
+/* Last update on day 4 */
+
 img {
     width: 20px;
 }
@@ -90,4 +92,28 @@ code {
 
 .information {
     font-size: 15px;
+}
+
+#copy_button {
+    text-decoration: none;
+    color: white;
+}
+
+.nsfw_information {
+    font-weight: bold;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.nsfw_information .red {
+    color: #ff4040;
+}
+
+#mainpage_button {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+    background-color: #a78017;
 }

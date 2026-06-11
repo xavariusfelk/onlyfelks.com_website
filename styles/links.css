@@ -1,3 +1,5 @@
+/* Last update on day 4 */
+
 .links {
     text-align: center;
     padding: 10px;
@@ -69,6 +71,12 @@
     background-color: #5865F2;
     border-color: #5865F2;
     color: #FFFFFF;
+}
+
+.furafifnity {
+    background-color: #FAAF3A;
+    border-color: #FAAF3A;
+    color: #000000;
 }
 
 .email {
