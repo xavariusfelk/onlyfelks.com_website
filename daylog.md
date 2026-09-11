@@ -40,3 +40,6 @@
 - I don't know what to say there more LOL
 - Plans to migrate off cloudflare to dedicated host to save resources xD
 - Plan to simply website and clean up even more CSS and JS in future, I'm just lazy ASS
+
+### Fix 1.1
+- Encoding on URL
