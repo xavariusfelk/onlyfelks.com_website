@@ -117,3 +117,7 @@ code {
     border-radius: 5px;
     background-color: #a78017;
 }
+
+#source_code a {
+    color: white;
+}

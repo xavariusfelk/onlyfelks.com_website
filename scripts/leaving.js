@@ -3,6 +3,7 @@
 const params = new URLSearchParams(window.location.search);
 const param_url = params.get('url');
 const param_nsfw = params.get('nsfw');
+const param_git = params.get('git');
 
 history.replaceState(null, '', 'leaving.html');
 
@@ -30,7 +31,7 @@ try {
     const checked_url = new URL(param_url);
     document.getElementById('redirect_url').innerHTML = checked_url.href.replace('https://', '');
     document.getElementById('continue_button').href = checked_url;
-    if(localStorage.getItem('skip_leaving') == 'skip' && param_nsfw != 'true') {
+    if(localStorage.getItem('skip_leaving') == 'skip' && param_nsfw != 'true' && param_git != 'true') {
         window.location = checked_url;
     }
     if(param_nsfw == 'true') {
@@ -42,3 +43,7 @@ try {
     document.getElementById('continue_button').style.display = 'none';
     document.getElementById('mainpage_button').classList.remove('hidden');
 } 
+
+if(param_git == 'true') {
+    document.getElementById('source_code').classList.remove('hidden');
+}

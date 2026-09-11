@@ -25,3 +25,18 @@
 - added reset script to remove localfiles that were created (click bite)
 - added link to the source code of the website
 - added home page button if no url was specified/returned to the page
+### Day 5
+- some CSS cleanup
+- putting shared css into main.css
+- some JS cleanup
+- fixed invisible footer if screen height is exactly 1108px
+- possible Release Candidate
+
+### Fix 1
+- Removed Code on Github from bottom of the page as it was generally unused
+- Moved the source code to Github button (as most would check github if wanted to search for it)
+- Adjusted the footer to work with additional button added to the list
+- Added joystick link
+- I don't know what to say there more LOL
+- Plans to migrate off cloudflare to dedicated host to save resources xD
+- Plan to simply website and clean up even more CSS and JS in future, I'm just lazy ASS

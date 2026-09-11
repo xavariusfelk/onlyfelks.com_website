@@ -79,6 +79,12 @@
     color: #000000;
 }
 
+.joystick {
+    background-color: #5cb1bd;
+    border-color: #5cb1bd;
+    color: #FFFFFF;
+}
+
 .email {
     background-color: #CC6F24;
     border-color: #CC6F24;
