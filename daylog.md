@@ -43,3 +43,6 @@
 
 ### Fix 1.1
 - Encoding on URL
+
+### Fix 1.2
+- Turns out I'm stupid and encoding was correct.
